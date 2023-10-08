@@ -1,0 +1,27 @@
+.attractions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.attractions-list__item {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.attractions-list__link {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+
+    transition: opacity 0.3s;   
+ }
+
+ .attractions-list__link:hover {
+    opacity: 0.7;
+ }
+
+ .attractions-list__link:active {
+    opacity: 0.3;
+ }

@@ -1,0 +1,44 @@
+.review-block {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.review-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.review-list__item {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.review-list__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-list__header__title {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.review-list__header__end {
+    display: flex;
+    gap: 8px;
+
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.review-list__text {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
